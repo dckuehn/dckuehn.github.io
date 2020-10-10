@@ -1,0 +1,115 @@
+
+body {
+  background-color: silver;
+  color: #444;
+  font-family: "Lora", sans-serif;
+}
+
+/* cardinal-red headers - On Wisconsin*/
+h1, h2, h3  {
+  color: #c5050c;
+  padding: 0px 0px 10px 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 24px;
+  transition: font-size 300ms;
+}
+
+.header {
+  margin: 0px;
+  padding: 10px 0px 0px 0px;
+  width: 100%;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  background-color: white;
+  border-bottom: 5px solid lightslategrey;
+}
+
+.inner-header {
+  margin: auto;
+  max-width: 920px;
+}
+
+.gravatar {
+  border: 1px solid #9fa098;
+  float: left;
+  margin: 5px;
+  height: 110px;
+  transition: height 300ms;
+}
+
+#secondary-header {
+  margin-bottom: -10px;
+}
+
+.hide-on-scroll {
+  font-size: 0px;
+}
+
+.gravatar-on-scroll {
+  height: 40px; 
+}
+
+.content-wrapper {
+  margin-top:175px;
+}
+
+.content {
+  margin: 1em auto;
+  padding: .25em 10px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid lightslategray;
+}
+
+@media (min-width: 920px) {
+
+  .header {
+    
+  }
+  
+  .content-wrapper {
+    margin-top: 140px;
+  }
+  
+  .content {
+    max-width: 920px;
+  }
+}
+
+@media (min-width: 361px) {
+  .content-wrapper {
+  }
+}
+
+.content-header {
+  border-style: bottom;
+  border-radius: 1px;
+}
+
+.content-body {
+
+
+}
+
+.sub-content{ 
+  padding: 5px 0px;
+}
+
+.mega-header {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.mini-header {
+   font-style: italic;
+}
+

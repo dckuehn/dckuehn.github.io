@@ -1,0 +1,28 @@
+{
+  "name": "dckuehn.me",
+  "version": "1.0.0",
+  "description": "Personal Website for David Kuehn",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dckuehn@bitbucket.org/dckuehn/dckuehn.me.git"
+  },
+  "keywords": [
+    "blog",
+    "dckuehn",
+    "resume"
+  ],
+  "author": "David Kuehn",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/dckuehn/dckuehn.me#readme",
+  "dependencies": {
+    "directory": "^0.1.0",
+    "handlebars": "^4.0.10",
+    "hapi": "^16.5.2",
+    "inert": "^4.2.1",
+    "vision": "^4.1.1"
+  }
+}
